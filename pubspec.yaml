@@ -1,0 +1,51 @@
+name: tesla_app
+description: Tesla app UI
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+     - family: gotham
+       fonts:
+         - asset: assets/fonts/Gotham Pro/gothampro.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_black.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_blackitalic.ttf
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_bold.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_bolditalic.ttf
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_italic.ttf
+           style: italic
+         - asset: assets/fonts/Gotham Pro/gothampro_light.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_lightitalic.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_medium.ttf
+         - asset: assets/fonts/Gotham Pro/gothampro_mediumitalic.ttf
+           style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
